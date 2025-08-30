@@ -42,8 +42,7 @@ app.use(cors());
 
 app.use(
   cors({
-    origin:
-      "https://chat-app2-backend-git-main-vikas-chaturvedis-projects.vercel.app/", // allow only your frontend
+    origin: "https://chat-app2-backend-livid.vercel.app/", // allow only your frontend
     credentials: true, // if you use cookies/auth headers
   })
 );
